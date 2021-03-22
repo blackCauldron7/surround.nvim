@@ -1,7 +1,7 @@
 --- a parser for surrounding character pairs
 -- @module parser
 
-local utils = require "utils"
+local utils = require "surround.utils"
 
 local OPENING = 1
 local CLOSING = 2

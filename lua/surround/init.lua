@@ -1,8 +1,8 @@
 --- a ux for surrounding character pairs
 -- @module surround
 
-local parser = require "parser"
-local utils = require "utils"
+local parser = require "surround.parser"
+local utils = require "surround.utils"
 
 local OPENING = 1
 local CLOSING = 2
