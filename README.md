@@ -58,7 +58,15 @@ feature requests.
 1. Doesn't support python docstrings and html tags yet.
 1. No vim docs(idk how to make them. Need help)
 2. Beta plugin not tested too much.(Help would be appreciated by testing and reporting bugs)
-1. No . repeat support(idk how to achieve this help would be appreciated.) (although there is a mapping `ss` only available in sandwich mode which repeats last surround command.)
+1. No `.` repeat support(idk how to achieve this help would be appreciated.) (although there is a mapping `ss` only available in sandwich mode which repeats last surround command.)
+
+## Note:
+
+In a recent commit, the lua files were moved to the `lua/surround` directory, so
+be careful.
+
+This is because the helper files (`lua/parser.lua` and `lua/utils.lua`) would
+clash with files the user might have in their configuration directory.
 
 
 ## Contributing
